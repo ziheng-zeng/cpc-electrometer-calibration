@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.DS_Store
+
+# Raw and generated calibration data are intentionally kept out of GitHub.
+*.csv
+*.txt
+*.html
+data/
+raw/
+results/
+Graphs/
+trials-archive/
+
+# Keep repository metadata/docs and curated image examples.
+!requirements.txt
+!README.md
+!examples/
+!examples/plots/
+!examples/plots/*.png
+
